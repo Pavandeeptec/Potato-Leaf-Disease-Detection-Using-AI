@@ -19,7 +19,7 @@ app = Flask(__name__)
 
 MODEL_PATH = "potato_disease_model.pth"
 # Replace YOUR_GOOGLE_DRIVE_FILE_ID with the actual ID from your Google Drive link
-MODEL_URL = "https://drive.google.com/uc?id=YOUR_GOOGLE_DRIVE_FILE_ID"
+MODEL_URL = "https://drive.google.com/uc?id=YOUR_ACTUAL_GOOGLE_DRIVE_FILE_ID_HERE"
 
 # Download model if not exists
 if not os.path.exists(MODEL_PATH):

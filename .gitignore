@@ -42,6 +42,13 @@ Thumbs.db
 dataset/
 old/
 
+# Model files (too large for git)
+*.pth
+*.pkl
+*.h5
+*.model
+training_accuracy.png
+
 # Temporary files
 *.tmp
 *.temp
