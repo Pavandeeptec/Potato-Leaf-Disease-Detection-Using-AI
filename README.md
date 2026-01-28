@@ -60,16 +60,17 @@ potato-disease-detection/
 ├── app.py                    # Main Flask application
 ├── train.py                  # Model training script
 ├── requirements.txt          # Python dependencies
-├── potato_disease_model.pth  # Trained model (not included - see setup)
+├── potato_disease_model.pth  # Trained model (not included - download it from kaggle)
 ├── templates/
 │   └── index.html           # Web interface
 ├── static/
 │   └── style.css            # Styling
-├── dataset/                 # Training dataset (not included)
-└── README.md               # This file
+├── dataset/                 # Training dataset (not included download it from kaggle)
+└── README.md               
 ```
 
-> **Note**: The trained model file (`potato_disease_model.pth`) is not included in this repository due to GitHub's file size limitations (982MB). Please follow the setup instructions to obtain the model.
+> **Note**: The trained model file (`potato_disease_model.pth`) is not included in this repository due to GitHub's file size limitations (982MB). check for google drive link to download it .
+(https://drive.google.com/file/d/1xP7g79pBvqIqFlQiOGTvwlIuGIqIjysO/view?usp=drive_link)
 
 ## 🎨 Screenshots
 
@@ -138,7 +139,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 🙏 Acknowledgments
 
 - Vision Transformer model from Hugging Face
-- Dataset from [PlantVillage](https://www.plantvillage.org/)
+- Dataset from [PlantVillage dataset from kaggle] or direct link [(https://drive.google.com/file/d/19XcZpXKAHo1K1geaIhKAkyAbAMt4ahcJ/view?usp=drive_link)]
 - Flask web framework
 - PyTorch deep learning library
 
