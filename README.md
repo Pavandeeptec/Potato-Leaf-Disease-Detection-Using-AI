@@ -41,9 +41,10 @@ cd potato-disease-detection
 pip install -r requirements.txt
 ```
 
-3. Download the trained model:
-   - The model file (`potato_disease_model.pth`) is not included due to size limitations
-   - Train your own model using `train.py` or download from [model link]
+3. Get the trained model:
+   - **Option 1**: Train your own model using `train.py` (recommended)
+   - **Option 2**: Download pre-trained model from [Google Drive](https://drive.google.com/your-model-link)
+   - Place the model file as `potato_disease_model.pth` in the root directory
 
 4. Run the application:
 ```bash
@@ -59,6 +60,7 @@ potato-disease-detection/
 ├── app.py                    # Main Flask application
 ├── train.py                  # Model training script
 ├── requirements.txt          # Python dependencies
+├── potato_disease_model.pth  # Trained model (not included - see setup)
 ├── templates/
 │   └── index.html           # Web interface
 ├── static/
@@ -66,6 +68,8 @@ potato-disease-detection/
 ├── dataset/                 # Training dataset (not included)
 └── README.md               # This file
 ```
+
+> **Note**: The trained model file (`potato_disease_model.pth`) is not included in this repository due to GitHub's file size limitations (982MB). Please follow the setup instructions to obtain the model.
 
 ## 🎨 Screenshots
 
